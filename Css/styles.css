@@ -1,0 +1,329 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #545252;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo h1 {
+    margin: 0;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    color: black; 
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+.nav ul li a:hover {
+    color: rgb(255, 255, 255); 
+}
+
+.Inicio {
+    text-align: left;
+    padding: 100px 20px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #545252;
+}
+
+.Inicio h2 {
+    font-size: 4.5em;
+    margin:  10px 100px 20px 0;
+    text-align: left;    
+}
+
+.Inicio p {
+    font-size: 1em;
+    margin: 0 -1 40px 0;
+}
+
+.Inicio p1 {
+    font-size: 0.8em;
+    margin: 0 0 15px 0;
+    color: rgb(51, 50, 50);
+    
+}
+
+.Inicio-buttons {
+    display: flex;
+    gap: 50px;
+    margin: 50px;
+}
+
+.btn-prueba, .btn-disenos {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-prueba {
+    background-color: black;
+    color: white;
+}
+
+.btn-prueba:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn-disenos {
+    background-color: grey;
+    color: white;
+}
+
+.btn-disenos:hover {
+    background-color: white;
+    color: grey;
+}
+
+.Inicio-image {
+    max-width: 40%;
+    position:absolute;
+    right: 0;
+    top: -29.5%;
+    transform: translateY(36%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 8, 0, 0.1);
+}
+
+.clear {
+    clear: both; 
+}
+
+
+.about-us, .popular-designs, .platforms {
+    padding: 60px 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.about-us-content, .designs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-us-content div, .design {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0);
+}
+
+.platforms {
+    padding: 60px 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 7% 0 0;
+}
+
+.platforms-layout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.platform-main-image {
+    max-width:max-content; 
+    height: 550px;
+    margin: 0px 75px 0 50px;
+    width: 1000px;
+    margin-right: 20px;
+}
+
+.platforms-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 80px;
+    flex: 1%;
+}
+
+.platform {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(157, 157, 157, 0.1);
+    width: 100%;
+    margin: 5% 0% 0% 7%;
+}
+
+.platform img {
+    max-width: 150px;
+    height: 30%;
+}
+
+.platform-info {
+    text-align: left;
+    flex: 1;
+}
+
+.platform-info h3 {
+    margin: 0;
+}
+
+.platform-info p {
+    margin: 10px 0;
+}
+
+.btn-descargar {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-descargar:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.btn-descargar {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-descargar:hover {
+    background-color: white;
+    color: black;
+}
+
+.Ejemplos {
+    background-color: #f2f2f2; 
+    padding: 40px 20px; 
+    text-align: center; 
+}
+
+.Ejemplos img {
+    max-width: 45%; 
+    margin: 0 10px; 
+}
+
+.testimonials {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.testimonials-content {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: 82%; 
+}
+
+.testimonial {
+    flex: 0 0 calc(33.33% - 20px); 
+    box-sizing: border-box; 
+    background-color: #939393; 
+    padding: 20px; 
+    border-radius: 10px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: left; 
+}
+
+.testimonial img {
+    max-width: 60px; 
+    border-radius: 50%; 
+    margin-bottom: 12px; 
+}
+
+.testimonial h3 {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.testimonial p {
+    margin: 0; 
+    font-size: 0.9em; 
+}
+
+
+.footer {
+    background-color: #939393; 
+    color: #000000; 
+    padding: 40px 20px; 
+    text-align: center; 
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: auto auto; 
+    grid-gap: 20px;
+    align-items: center; 
+}
+
+.footer-content > div {
+    grid-column: span 1; 
+    text-align: left; 
+}
+
+.footer-content > div h3 {
+    margin-bottom: 10px; 
+}
+
+.footer-nav ul,.social-media,.Contacto {
+    grid-column: span 1;
+    text-align: left; 
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav li {
+    margin-bottom: 5px; 
+}
+
+.social-media a {
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+.Contacto a {
+    display: block;
+    margin-bottom: 5px; 
+}
